@@ -1,0 +1,6 @@
+def like_food(food_name):
+    result="我喜欢的食物是"+food_name
+    return result
+if "__main__"==__name__:
+    result=like_food("芹菜炒肉")
+    print(result)
